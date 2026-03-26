@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Joy")(type "KiCad")(uri "${KIPRJMOD}/Joystick_Library.pretty")(options "")(descr ""))
+)
