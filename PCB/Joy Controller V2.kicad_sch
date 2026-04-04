@@ -5928,6 +5928,10 @@
 		(uuid "45c7b33a-9144-4b20-b33b-4ba931119f8b")
 	)
 	(no_connect
+		(at 38.1 20.32)
+		(uuid "6022b90f-9063-4f3d-8f01-2a99adcb51f3")
+	)
+	(no_connect
 		(at 120.65 57.15)
 		(uuid "7e576b0f-ef98-45d9-86e3-17793829bacd")
 	)
@@ -11103,7 +11107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 266.7 133.35 0)
 			(effects
 				(font
@@ -11804,7 +11808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_SKHH_Angled"
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled"
 			(at 266.7 102.87 0)
 			(effects
 				(font
@@ -12441,7 +12445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_SKHH_Angled"
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled"
 			(at 185.42 102.87 0)
 			(effects
 				(font
@@ -12853,7 +12857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 237.49 148.59 0)
 			(effects
 				(font
@@ -13204,7 +13208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 210.82 133.35 0)
 			(effects
 				(font
@@ -13474,7 +13478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 237.49 102.87 0)
 			(effects
 				(font
@@ -14775,7 +14779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 210.82 118.11 0)
 			(effects
 				(font
@@ -16108,7 +16112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 210.82 148.59 0)
 			(effects
 				(font
@@ -16464,7 +16468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_SKHH_Angled"
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled"
 			(at 185.42 148.59 0)
 			(effects
 				(font
@@ -16822,7 +16826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 237.49 133.35 0)
 			(effects
 				(font
@@ -17701,7 +17705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 185.42 118.11 0)
 			(effects
 				(font
@@ -18297,7 +18301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 237.49 118.11 0)
 			(effects
 				(font
@@ -19273,7 +19277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-107x"
 			(at 210.82 102.87 0)
 			(effects
 				(font
