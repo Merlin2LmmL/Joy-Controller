@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Joy") (type "KiCad") (uri "${KIPRJMOD}/Joystick_Library.pretty") (options "") (descr ""))
+	(lib (name "lcsc") (type "KiCad") (uri "${KIPRJMOD}/lib/lcsc/easyeda2kicad.pretty") (options "") (descr ""))
+)
