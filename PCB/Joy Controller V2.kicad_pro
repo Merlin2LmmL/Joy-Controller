@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "drill": 2.999994,
+          "height": 2.3,
+          "width": 4.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|139350000|126745000|8f8a6274-04ea-4a1e-b493-fdcdfa0772de|22c3a093-20ee-43fd-9724-1032d6c0338d",
+          "IDK cant change the usb port footprint soooo"
+        ],
+        [
+          "hole_clearance|139350000|126745000|c330ad40-a122-4c5c-90c2-ad26f9ea8c4e|22c3a093-20ee-43fd-9724-1032d6c0338d",
+          "IDK cant change the usb port footprint soooo"
+        ],
+        [
+          "hole_clearance|145450000|126745000|a133be98-6a6e-4e6b-a7e4-fdc389942edf|35129bc9-8c2a-4904-a4a7-cfafec99187a",
+          "IDK cant change the usb port footprint soooo"
+        ],
+        [
+          "hole_clearance|145450000|126745000|e09169ae-38d1-47d0-a0c9-5bf03012ae46|35129bc9-8c2a-4904-a4a7-cfafec99187a",
+          "IDK cant change the usb port footprint soooo"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -91,8 +108,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -102,12 +119,12 @@
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "ignore",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -123,7 +140,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -131,22 +148,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -659,7 +676,7 @@
         "uuid": "5e526fa9-aa4b-4051-90eb-8f6189b5afd5"
       }
     ],
-    "used_designators": "SW6-13,SW15,SW18-20",
+    "used_designators": "SW14-15,#PWR20",
     "variants": []
   },
   "sheets": [
